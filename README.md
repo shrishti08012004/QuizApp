@@ -27,9 +27,7 @@ Screenshots
 
 <img width="1859" height="882" alt="image" src="https://github.com/user-attachments/assets/fba3ae52-ac59-4b79-bbb0-b51913644feb" />
 
-
-![Uploading image.png…]()
-
+ Live Demo: https://shrishti08012004.github.io/QuizApp/
 
 Technologies Used
 
