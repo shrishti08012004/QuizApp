@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Game with API</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Quiz Game</h1>
+
+    <!-- Category Selection Screen -->
+    <div id="category-screen">
+      <h2>Select a Category</h2>
+      <select id="category-select">
+        <option value="18">Computer Science</option>
+        <option value="9">General Knowledge</option>
+        <option value="10">English (Books)</option>
+      </select>
+      <button id="start-btn" class="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="quiz" style="display: none;">
+      <h2 id="question">Question goes here</h2>
+      <p id="timer">Time Left: 10s ⏱</p>
+      <div id="answer-buttons" class="btn-container"></div>
+      <div class="bottom-buttons">
+        <button id="next-btn" class="next-btn" style="display: none;">Next</button>
+      </div>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" style="display: none;">
+      <h2>Quiz Completed 🎉</h2>
+      <p id="score-text"></p>
+      <p id="category-text"></p>
+      <button id="play-again-btn" class="start-btn">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
