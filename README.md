@@ -19,13 +19,14 @@ Features
 
 🏆 Score screen with performance categories (Genius, Excellent, Intelligent, Good, Keep Practicing)
 
-🎉 Confetti animation on quiz completion
 
 Multiple categories: Computer Science, General Knowledge, English (Books)
 
 Screenshots
 
 <img width="1859" height="882" alt="image" src="https://github.com/user-attachments/assets/fba3ae52-ac59-4b79-bbb0-b51913644feb" />
+<img width="1904" height="876" alt="image" src="https://github.com/user-attachments/assets/f4b7b043-f81b-4a5b-bd01-4aa4b650ec60" />
+
 
  Live Demo: https://shrishti08012004.github.io/QuizApp/
 
@@ -35,6 +36,6 @@ HTML5 – Structure of the web page
 
 CSS3 – Styling, animations, gradient background, frosted glass effect
 
-JavaScript (Vanilla) – Quiz logic, API fetching, timer, confetti animation
+JavaScript (Vanilla) – Quiz logic, API fetching, timer
 
 Open Trivia Database API – Dynamic quiz questions
